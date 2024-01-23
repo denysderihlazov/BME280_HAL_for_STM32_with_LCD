@@ -58,9 +58,7 @@ As on the screenshot below:
 Once you have completed all the above steps, add the `BME280_Init();` function to your `main.c` file or wherever appropriate in your code. In my example (though not recommended for production use), I've added it to the `while(1)` loop just to demonstrate its functionality:
 ![screenshot of I2C def. setup](https://github.com/denysderihlazov/BME280_HAL_for_STM32/blob/main/readme_screenshots/init_bme280.png?raw=true)
 
-Finally, to see your project in action, simply run it and upload it to the STM32 board. To view the results, you can use a console or an LCD screen if you have one connected.
-
-I also have a project with the same BME280 sensor and a WaveShare ILI9341 SPI 240×320, General 2.4inch LCD. As soon as I add it to my GitHub, I will include a link here.
+Finally, to see your project in action, simply run it and upload it to the STM32 board. To view the results, you can use a console or an LCD screen.
 
 ## Features
  - Establishes a connection with the Bosch BME280 sensor and checks for successful communication.
